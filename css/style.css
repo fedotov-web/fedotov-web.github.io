@@ -1,0 +1,172 @@
+img{
+	max-width: 100%;
+}
+body{
+	margin: 0;
+font-family: 'Slabo 27px', serif;
+}
+header{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #BCD500;
+	color:#0A0A09;
+}
+.header-audio{
+	outline: none;
+}
+.header-text2{
+	margin-right: 10px;
+}
+.header-text1, .header-text2, .header-text3, .header-img-right{
+	padding-top: 25px;
+}
+.header-menu-text1{
+	margin-left: 40px;
+}
+.nav-link{
+	color:#865617;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 50px;
+	border-right: 1px solid #FCE213;
+	padding: 8px;
+	box-shadow: 10px 17px 34px 6px rgba(188, 213, 0, 0.7)
+}
+.nav-link:hover{
+	color: #FCE213;
+box-shadow: none;
+-webkit-transition: 0.2s;
+-o-transition: 0.2s;
+transition: 0.2s;
+}
+.portfolio-img{
+	margin-top: 30px;
+}
+h1{
+	font-size: 28px;
+	text-align: center;
+	color:#865617;
+}
+footer{
+	background-color:#BCD500;
+	padding-bottom: 0;
+}
+.footer-img{
+	font-size: 50px;
+	padding:30px 20px;
+}
+.footer-center-text{
+	margin-top: 60px;
+	color:#865617; 
+	font-size: 18px;
+	text-align: center;
+	
+}
+.footer-right-text{
+	margin-top: 60px;
+	color:#865617; 
+	font-size: 18px;
+	text-align: center;
+}
+.social-block a{
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.social-block{
+	position: absolute;
+	text-align: center;
+	margin-left: 70px;
+}
+.btn a{
+	color:#865617; 
+	font-size: 20px;
+}
+.btn a:hover{
+	display: inline-block;
+	text-decoration: none;
+}
+
+
+.portfolio h2{
+	padding-top: 80px;
+	font-size: 28px;
+	text-align: center;
+	color:#865617;
+}
+.portfolio-about-img{
+	margin-top: 20px;
+	margin-right: 20px;
+	float: left;
+}
+#carouselExampleFade{
+	padding-bottom: 20px;
+}
+.portfolio-exercise p{
+	color:#0A0A09;
+	padding-top: 20px;
+}
+.portfolio-exercise{
+	font-size: 18px;
+	text-align: center;
+	color:#865617;
+}
+
+
+
+.portfolio-contacts{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.portfolio-contacts iframe{
+	border-top: 4px solid #BCD500;
+	margin-top: 30px;
+	padding-top: 30px;
+	}
+	.portfolio-contacts h3{
+		color:#865617;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+
+.portfolio-foto{
+	color:#865617;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+.portfolio-teachers{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.portfolio-teachers img{
+height: 500px;
+}
+
+.portfolio-teachers h2{
+	text-align: center;
+	color:#865617;
+	font-size: 28px;
+	padding-bottom: 30px;
+}
+.portfolio-teachers h3{
+	font-size: 20px;
+}
+
+
+
+
+.portfolio-blog{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.portfolio-blog h3{
+	text-align: center;
+	color:#865617;
+}
