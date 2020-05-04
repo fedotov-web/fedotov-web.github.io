@@ -11,13 +11,14 @@ header{
 	background-color: #BCD500;
 	color:#0A0A09;
 }
-.header-audio{
-	outline: none;
+.header-img-left{
+	ml20: 10px;
 }
 .header-text2{
 	margin-right: 10px;
 }
 .header-text1, .header-text2, .header-text3, .header-img-right{
+	display: inline-block;
 	padding-top: 25px;
 }
 .header-menu-text1{
@@ -45,7 +46,6 @@ transition: 0.2s;
 	margin-top: 30px;
 }
 h1{
-	font-size: 28px;
 	text-align: center;
 	color:#865617;
 }
@@ -90,7 +90,9 @@ footer{
 }
 
 
-.portfolio h2{
+
+
+.portfolio-about h2{
 	padding-top: 80px;
 	font-size: 28px;
 	text-align: center;
@@ -101,8 +103,8 @@ footer{
 	margin-right: 20px;
 	float: left;
 }
-#carouselExampleFade{
-	padding-bottom: 20px;
+.portfolio-exercise h3{
+	text-align: center;
 }
 .portfolio-exercise p{
 	color:#0A0A09;
@@ -114,32 +116,12 @@ footer{
 	color:#865617;
 }
 
-
-
-.portfolio-contacts{
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 50px;
-}
-.portfolio-contacts iframe{
-	border-top: 4px solid #BCD500;
-	margin-top: 30px;
-	padding-top: 30px;
-	}
-	.portfolio-contacts h3{
-		color:#865617;
-		padding-top: 50px;
-		padding-bottom: 50px;
-	}
-
-
 .portfolio-foto{
 	color:#865617;
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
-
 
 .portfolio-teachers{
 	margin-top: 30px;
@@ -158,9 +140,9 @@ height: 500px;
 .portfolio-teachers h3{
 	font-size: 20px;
 }
+.portfolio-teachers p{
 
-
-
+}
 
 .portfolio-blog{
 	margin-top: 30px;
@@ -170,3 +152,114 @@ height: 500px;
 	text-align: center;
 	color:#865617;
 }
+
+.portfolio-contacts{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.portfolio-contacts iframe{
+	border-top: 4px solid #BCD500;
+	margin-top: 30px;
+	padding-top: 30px;
+	}
+.portfolio-contacts h3{
+	color:#865617;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	}
+
+
+@media (max-width: 992px) {
+	.main-nav{
+		font-size: 15px
+	}
+	.header-text1, .header-text2, .header-text3, .header-img-right{
+	font-size: 12px;
+}
+	.btn a{
+	font-size: 13px;
+}
+	.portfolio h1{
+font-size: 28px;
+}
+	.portfolio-about h2{
+	padding-top: 30px;
+}
+	.portfolio-about-img{
+	width: 250px;
+}
+	.portfolio-exercise {
+padding-top: 30px;
+}
+	.portfolio-exercise p{
+font-size: 15px;
+}
+	.portfolio-teachers img{
+height: 300px;
+}
+}
+
+
+
+
+
+@media(max-width: 668px){
+	.header-text1, .header-text2, .header-text3, .header-img-right{
+	display: none;
+	}
+	.main-nav{
+	font-size: 10px
+	}
+	.footer-center-text{
+	font-size: 10px;
+	}
+	.footer-right-text{
+	font-size: 10px;
+	}
+	.social-block{
+	text-align: center;
+	margin-left: 20px;
+}
+	.portfolio h1{
+	font-size: 26px;
+}
+	.portfolio p{
+	font-size: 15px;
+}
+	.btn a{
+	font-size: 9px;
+		}
+	.portfolio-about h2{
+		font-size: 25px;
+		}
+	.portfolio-about p{
+		font-size: 15px;
+		}
+	.portfolio-exercise h3{
+	font-size: 25px;
+}
+	.portfolio-exercise p{
+	font-size: 12px;
+}
+	.portfolio-foto h3{
+	font-size: 25px;
+}
+	.portfolio-teachers h2{
+	font-size: 25px;
+}
+	.portfolio-teachers p{
+	font-size: 12px;
+}
+	.portfolio-teachers img{
+	height: 200px;
+}
+	.portfolio-blog h3{
+	font-size: 25px;
+}
+	.portfolio-contacts h3{
+	font-size: 25px;
+}
+}
+
+
